@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chat-input{
+    padding: 1rem 1.5rem;
+    width: 115%;
+}
+.chat-input-field{
+    outline: none;
+    border: 1px solid #EF629F;
+    border-radius: .5rem;
+
+}
+
+.send-message{
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+    background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 18%;
+    border-radius: .5rem;
+    transition: all .3s ease-in-out;
+}
+.send-message:hover{
+    transform: scale(1.1);
+}
+

@@ -1,0 +1,50 @@
+.m-loading-svg {
+    position: fixed;
+    left: 48.5%;
+    top: 43%;
+    transform: rotate(50% 50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    z-index: 9999;
+}
+
+.bgc{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+
+  }
+  
+  .m-loading-svg .m-icon-loading {
+    width: 100%;
+    height: 100%;
+    border: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent url(../../assets/loading.svg) no-repeat center;
+    background-size: 100%;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .m-loading-svg .m-icon-loading {
+    transition: all 0.3s ease;
+  }
+  
+  .m-loading-svg .m-icon-loading {
+    animation: rotate 1s ease infinite;
+  }

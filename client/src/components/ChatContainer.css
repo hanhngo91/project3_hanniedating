@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chat-container{
+    background-color: rgba(255, 255, 255, 0.842);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 30%;
+    text-align: left;
+    z-index: 1;
+}
+.option{
+    border: none;
+    background-color: transparent;
+    border-bottom: 4px solid #EF629F;
+    font-size: 1rem;
+    margin: 0.3rem;
+    padding: .3rem 1rem;
+    cursor: pointer;
+}
+
+.option:disabled{
+    border-bottom: none;
+
+}

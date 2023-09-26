@@ -1,0 +1,48 @@
+:root{
+    --var:#EF629F
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.matches-display{
+    margin: 1rem 1rem;
+}
+
+.match-card{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+.a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.matchedName{
+    display: flex;
+    align-items: center;
+}
+
+.btn-delete{
+    margin-left: auto;
+    background-color: transparent;
+    color: var(--var);
+    border: none;
+    padding: 0.3rem .7rem;
+    height: 70%;
+    border: 1px solid var(--var);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-delete:hover{
+    background-color: var(--var);
+    color: white;
+}
